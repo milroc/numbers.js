@@ -38,4 +38,11 @@ suite('numbers', function() {
     done();
   });
 
+  //prime.isPrimePower
+
+  //prime.isPerfectPower
+
+  //prime.factorization
+
+
 });
