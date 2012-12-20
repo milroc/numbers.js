@@ -351,4 +351,11 @@ suite('numbers', function() {
     done();
   });
 
+  // matrix.strassen
+  test('should return multiplied matrix', function(done) {
+    var m = [[2,4],[4,5]],
+        n = [[1,6],[10,23]];
+    assert.deepEqual(matrix.multiply(n,m), matrix.strassen(n,m));
+  });
+
 });
